@@ -24,5 +24,10 @@ public class PruebaT {
         esperado = 37.4;
         assertEquals(esperado, Meto.CelsiusFahrenheit(3), 0);
     }
+    @Test
+    public void ConvercionCK(){
+        esperado = 275;
+        assertEquals(esperado,Meto.CelsiusKelvin(2),0);
+    }
 
 }
