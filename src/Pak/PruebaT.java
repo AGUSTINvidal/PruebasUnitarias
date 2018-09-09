@@ -39,4 +39,9 @@ public class PruebaT {
         esperado = 256.3333333333333;
         assertEquals(esperado,Meto.FahrenheitKelvin(2),0);
     }
+    @Test
+    public void ConvertirKF(){
+        esperado = -455.8;
+        assertEquals(esperado,Meto.KelvinFahrenheit(2),0);
+    }
 }
