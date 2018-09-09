@@ -29,5 +29,10 @@ public class PruebaT {
         esperado = 275;
         assertEquals(esperado,Meto.CelsiusKelvin(2),0);
     }
+    @Test
+    public void ConvercionKC(){
+        esperado = -271;
+        assertEquals(esperado,Meto.KelvinCelsuis(2),0);
+    }
 
 }
